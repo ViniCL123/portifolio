@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1ffcf;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/*  Perfil           */
+
+.home-conteudo img {
+    margin-bottom: 10px;
+    border-radius: 200px;
+}
+
+
+.home-conteudo span{
+    padding: 5px 10px;
+    background-color: #f3e1b6;
+    border-radius: 100px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
+.home-conteudo h1{
+    font-size: xx-large;
+    margin: 10px 0;
+    font-family: 'Tektur', cursive;
+}
+/*  Perfil           */
+
+
+/*  Links     */
+.redes-social {
+    display: flex;
+    justify-content: center;
+}
+/*  Links     */
+
+
+/*  Sobre     */
+.sobre-conteudo {
+    width: 500px;
+    margin: 30px;
+    background-color: #f8df82;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 4px 4px black;
+}
+
+.sobre-conteudo li{
+    padding: 10px;
+    list-style: none;
+    font-size: large;
+}
+
+.sobre-conteudo h1{
+    font-family: 'Tektur', cursive;
+}
+
+.icone i{
+    margin-left: 10px;
+}
+
+.icone a:link {
+    text-decoration: none;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+}
+/*  Sobre     */
+
+
+/*  O que estudo     */
+.prog{
+    font-size: large;
+    margin-top: 20px;
+    font-family: 'Tektur', cursive;
+}
+
+.prog-conteudo {
+    margin: 25px;
+    padding: 10px;
+}
+/*  O que estudo     */
+
+
+/*  Projetos     */
+.projeto{
+    font-family: 'Tektur', cursive;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+.card-conteudo {
+    background-color: #f3e1b6;
+    border-radius: 20px;
+    width: 160px;
+    height: 200px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 8px black;
+}
+
+.card img{
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.card-desc {
+    margin: 15px;
+}
+
+.card h4{
+    margin-bottom: 10px;
+}
+
+.card-desc button{
+    padding: 3px;
+}
+
